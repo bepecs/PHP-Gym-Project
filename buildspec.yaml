@@ -1,14 +1,5 @@
 version: 0.2
 
-phases:
-  install:
-     runtime-versions:
-                  php: 7.3
-     commands:
-      - npm install
-     build:
-     commands:
-      - npm test
 artifacts:
   files:
-    - '**/
+    - '**/*'
